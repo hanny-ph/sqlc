@@ -61,3 +61,5 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230822172742-b8732ec3820d // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 )
+
+replace github.com/kyleconroy/sqlc v1.16.0 => github.com/debugger84/sqlc v0.0.0-20221223152948-780b95d17d6f
